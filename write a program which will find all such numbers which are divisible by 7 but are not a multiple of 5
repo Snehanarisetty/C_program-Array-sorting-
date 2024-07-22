@@ -1,0 +1,17 @@
+import math
+lower = math.ceil(200 / 5) 
+upper = math.floor(320 / 5) 
+for i in range(lower, upper+1): 
+    if (7 * i) % 5 != 0: 
+        print(7 * i, end =' ') 
+    else: 
+        continue 
+
+
+        (or)
+
+        nl = []
+for x in range(150, 270):
+    if (x % 7 == 0) and (x % 5 == 0):
+        nl.append(str(x))
+print(','.join(nl))
